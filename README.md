@@ -2,4 +2,4 @@
 
 QWinto & Qwixx games 
 
-open README.txt
+open README.pdf for project description
