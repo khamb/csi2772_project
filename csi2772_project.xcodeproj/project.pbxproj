@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8215F951FBDECC600546E2B /* dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8215F941FBDECC600546E2B /* dice.cpp */; };
+		F8215F971FBDECEA00546E2B /* rollOfDice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8215F961FBDECEA00546E2B /* rollOfDice.cpp */; };
+		F82773E41FC62793003DB277 /* qwintoScoreSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82773E31FC62793003DB277 /* qwintoScoreSheet.cpp */; };
+		F82773E61FC627A3003DB277 /* qwixxScoreSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82773E51FC627A3003DB277 /* qwixxScoreSheet.cpp */; };
+		F852205F1FD0D7CB004A953C /* qwintoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F852205E1FD0D7CB004A953C /* qwintoPlayer.cpp */; };
+		F85220611FD0D7DE004A953C /* qwixxPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F85220601FD0D7DE004A953C /* qwixxPlayer.cpp */; };
 		F8F990321FB929750042CBB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F990311FB929750042CBB0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +29,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F8215F8C1FBDEBAD00546E2B /* colour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colour.h; sourceTree = "<group>"; };
+		F8215F921FBDEC8F00546E2B /* randomDice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = randomDice.h; sourceTree = "<group>"; };
+		F8215F931FBDECBB00546E2B /* dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dice.h; sourceTree = "<group>"; };
+		F8215F941FBDECC600546E2B /* dice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dice.cpp; sourceTree = "<group>"; };
+		F8215F961FBDECEA00546E2B /* rollOfDice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rollOfDice.cpp; sourceTree = "<group>"; };
+		F8215F981FBDECF900546E2B /* rollOfDice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rollOfDice.h; sourceTree = "<group>"; };
+		F8215F9C1FBDED9F00546E2B /* scoreSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoreSheet.h; sourceTree = "<group>"; };
+		F8215F9D1FBDEDB200546E2B /* qwintoScoreSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwintoScoreSheet.h; sourceTree = "<group>"; };
+		F8215F9E1FBDEDC900546E2B /* qwixxScoreSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwixxScoreSheet.h; sourceTree = "<group>"; };
+		F8215F9F1FBDEDD100546E2B /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		F8215FA01FBDEDE400546E2B /* qwintoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwintoPlayer.h; sourceTree = "<group>"; };
+		F8215FA11FBDEDF200546E2B /* qwixxPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwixxPlayer.h; sourceTree = "<group>"; };
+		F82773DB1FC35716003DB277 /* qwintoRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwintoRow.h; sourceTree = "<group>"; };
+		F82773DC1FC3CB08003DB277 /* qwixxRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qwixxRow.h; sourceTree = "<group>"; };
+		F82773E31FC62793003DB277 /* qwintoScoreSheet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qwintoScoreSheet.cpp; sourceTree = "<group>"; };
+		F82773E51FC627A3003DB277 /* qwixxScoreSheet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qwixxScoreSheet.cpp; sourceTree = "<group>"; };
+		F852205E1FD0D7CB004A953C /* qwintoPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qwintoPlayer.cpp; sourceTree = "<group>"; };
+		F85220601FD0D7DE004A953C /* qwixxPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qwixxPlayer.cpp; sourceTree = "<group>"; };
 		F8F9902E1FB929750042CBB0 /* csi2772_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = csi2772_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F990311FB929750042CBB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +82,24 @@
 			isa = PBXGroup;
 			children = (
 				F8F990311FB929750042CBB0 /* main.cpp */,
+				F8215F8C1FBDEBAD00546E2B /* colour.h */,
+				F8215F921FBDEC8F00546E2B /* randomDice.h */,
+				F8215F931FBDECBB00546E2B /* dice.h */,
+				F8215F941FBDECC600546E2B /* dice.cpp */,
+				F8215F981FBDECF900546E2B /* rollOfDice.h */,
+				F8215F961FBDECEA00546E2B /* rollOfDice.cpp */,
+				F82773DB1FC35716003DB277 /* qwintoRow.h */,
+				F82773DC1FC3CB08003DB277 /* qwixxRow.h */,
+				F8215F9C1FBDED9F00546E2B /* scoreSheet.h */,
+				F8215F9D1FBDEDB200546E2B /* qwintoScoreSheet.h */,
+				F82773E31FC62793003DB277 /* qwintoScoreSheet.cpp */,
+				F8215F9E1FBDEDC900546E2B /* qwixxScoreSheet.h */,
+				F82773E51FC627A3003DB277 /* qwixxScoreSheet.cpp */,
+				F8215F9F1FBDEDD100546E2B /* player.h */,
+				F8215FA01FBDEDE400546E2B /* qwintoPlayer.h */,
+				F852205E1FD0D7CB004A953C /* qwintoPlayer.cpp */,
+				F8215FA11FBDEDF200546E2B /* qwixxPlayer.h */,
+				F85220601FD0D7DE004A953C /* qwixxPlayer.cpp */,
 			);
 			path = csi2772_project;
 			sourceTree = "<group>";
@@ -120,6 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F990321FB929750042CBB0 /* main.cpp in Sources */,
+				F82773E61FC627A3003DB277 /* qwixxScoreSheet.cpp in Sources */,
+				F82773E41FC62793003DB277 /* qwintoScoreSheet.cpp in Sources */,
+				F8215F971FBDECEA00546E2B /* rollOfDice.cpp in Sources */,
+				F8215F951FBDECC600546E2B /* dice.cpp in Sources */,
+				F85220611FD0D7DE004A953C /* qwixxPlayer.cpp in Sources */,
+				F852205F1FD0D7CB004A953C /* qwintoPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
